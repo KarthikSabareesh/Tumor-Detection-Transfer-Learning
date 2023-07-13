@@ -13,11 +13,12 @@
 
 ## Working Process:
 ### 1) Importing the required models.
-### 2) Preprocessing the data ( designing the rescaling functions using Keras layers)
+### 2) Importing the data from Google Drive and Preprocessing the data ( designing the rescaling functions using Keras layers)
 ### 3) Importing the pre-trained model for transfer learning (Xception)
 ### 4) Exclude the top layers, freeze the base layers a nd add our own custom top layers, along with rescaling layer.
 ### 5) Compile and Train our new model on our dataset with callbacks.
 ### 6) Test for our model's efficiency by plotting loss and accuracy, as well as assesing model performance using classification metrics
+### 7) Saving our model in Google Drive Cloud
 
 ## Points to note :
 ### We have imported Xception here due to the small nature of the dataset. Depending on the type, novel features, size and other major properties of our dataset, as well as the nature of our task and our computational power, the model to be imported and the additional steps to be taken will differ. Take care to ensure you import and design your model workflow accordingly.
