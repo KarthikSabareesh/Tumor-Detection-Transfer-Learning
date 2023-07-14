@@ -23,7 +23,7 @@
 ## Points to note :
 ### We have imported Xception here due to the small nature of the dataset. Depending on the type, novel features, size and other major properties of our dataset, as well as the nature of our task and our computational power, the model to be imported and the additional steps to be taken will differ. Take care to ensure you import and design your model workflow accordingly.
 
-### We deciced to stick to just 15 epochs here due to time and computational power constraints, as well as satisfaction with obtained results of 96% accuracy and 97% F1 Score. Even with the same model and dataset, different training optimisations can be performed
+### We deciced to undertake the training processes we did in this case due to time and computational power constraints, as well as the small dataset size and satisfaction with obtained results of 96% accuracy and 97% F1 Score.
 
 ## Possible Future Updates:
 ### 1) Deployment of model via Streamlit
